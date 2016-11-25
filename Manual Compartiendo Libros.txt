@@ -1,0 +1,49 @@
+Proyecto COMPARTIENDO LIBROS
+
+Consta de una base de datos de clientes y sus libros, los cuales van a estar disponibles para prestamo
+
+OBJETIVO
+Que los usuarios puedan prestar y obtener libros
+
+FUNCIONAMIENTO
+El cliente se conecta a un servidor
+El sistema ofrece las opciones de:
+1-Registrarse
+2-Iniciar sesion
+3-Salir
+
+Opcion 1-Regristrarse
+-Debera ingresar un nombre de usuario (que no deberá existir en el sistema)
+-Debera ingresar una contraseña (será utilizada luego para iniciar sesion)
+-Debera ingresar una direccion de mail (para que el resto de los usuarios puedan ubicar a su dueño)
+-Debera ingresar el barrio al que pertenece (para que el resto de los usuarios sepan donde puede encontrar el libro)
+-Debera ingresar un telefono (opcional)
+
+Opcion 2-Iniciar sesion
+-Deberá ingresar su nombre de usuario (previamente dado de alta)
+-Deberá ingresar su contraseña (previamente dada de alta)
+-Una vez logueado el sistema ofrecerá las opciones:
+    1-Agregar libros
+    2-Mostrar mis libros
+    3-Borrar libro
+    4-Buscar libro
+    5-Mostrar todos los libros
+
+    Opcion 1-Agregar libros
+    -Deberá ingresar el titulo del libro que ofrece para prestamo
+    
+    Opcion 2-Mostrar mis libros
+    -Muestra por pantalla todos los libros ofrecidos por el usuario
+    
+    Opcion 3-Borrar libro
+    -Deberá ingresar el titulo del libro a eliminar de su lista
+    
+    Opcion 4-Buscar libro
+    -Deberá ingresar el titulo del libro a buscar ofrecido por otros usuarios
+      El resultado será: cliente, direccion de correo, barrio y telefono del usuario que ofrece el libro.
+    
+    Opcion 5-Mostrar todos los libros
+    -Muestra por pantalla todos los libros ofrecidos por usuario registrado
+    
+Opcion 3-Salir
+-Cierra el programa y corta la conexion con el servidor
